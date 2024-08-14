@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Naina's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 64);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: purple;
+            font-size: 1.04rem;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .projects-section {
+            max-width: 80%;
+            margin: auto;
+        }
+
+        .projects-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .project {
+            background-color: rgb(18, 18, 64);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .project h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .project a {
+            text-decoration: none;
+            color: blueviolet;
+            font-weight: bold;
+        }
+
+        .project a:hover {
+            color: white;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+            color: gray;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-content h3 {
+            margin-bottom: 20px;
+        }
+
+        .footer-nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .footer-nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .footer-nav ul li {
+            margin: 0 15px;
+        }
+
+        .footer-nav ul li a {
+            text-decoration: none;
+            color: gray;
+            font-size: 1rem;
+        }
+
+        .footer-nav ul li a:hover {
+            color: white;
+        }
+
+        .footer-rights {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Naina's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="projects-section">
+            <h1>My Projects</h1>
+            <div class="project">
+                <h2>Movie Search Website</h2>
+                <p>Developed a dynamic Movie Web App using HTML, CSS, and JavaScript, integrating with a movie API. Key features include:</p>
+                   <p> o	Real-time search functionality with instant results</p>
+                   <p>o	Detailed movie information pages</p>
+                    <p> o	'Favorite' system with persistent storage</p>
+                        <p>o	Responsive design for seamless use across devices</p>
+                  <p>o	The app demonstrates proficiency in front-end development, API integration, and implementing complex features like real-time search and local storage management.</p>
+                    <p>Technologies Used: HTML, CSS, and JavaScript</p>
+                    
+                <a href="https://github.com/nainajha20/movie-web-app.git">View Project</a> | <a href="https://github.com/nainajha20/movie-web-app.git">GitHub Repository</a>
+            </div>
+            <div class="project">
+                <h2>Invoice Generator</h2>
+                <p>Developed a command-line Invoice Generator application in C. Key features include:
+                    <p> o	User input for customer and product details</p>
+                    <p> o	Automatic calculation of subtotals and total amount</p>
+                                  Technology Used: C</p>
+                    </p>
+                <a href="https://github.com/nainajha20/invoice-generator.git">View Project</a> | <a href="https://github.com/nainajha20/invoice-generator.git">GitHub Repository</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>Naina's Portfolio</h3>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-rights">
+                Copyright &#169; naina'sportfolio.com | All rights reserved
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
